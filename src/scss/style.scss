@@ -1,0 +1,23 @@
+@import 'fonts';
+
+body {
+  font-family: tt;
+  font-size: 40px;
+  background-color: black;
+  span {
+    color: green;
+  }
+  //background: url('@img/cover.png') 0 0 no-repeat;
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  span {
+    background-color: green;
+  }
+}
